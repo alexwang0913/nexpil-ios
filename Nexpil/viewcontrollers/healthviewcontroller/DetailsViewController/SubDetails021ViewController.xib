@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubDetails021ViewController" customModule="Nexpil" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="czE-zS-pLe" id="jD4-dx-QE1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="1020"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iu-MC-GNs">
+                    <rect key="frame" x="0.0" y="20" width="395" height="1000"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHT-Jy-4vP" userLabel="Content View">
+                            <rect key="frame" x="0.0" y="0.0" width="395" height="695"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="czE-zS-pLe">
+                                    <rect key="frame" x="0.0" y="0.0" width="395" height="695"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oJ1-rx-1iJ">
+                                        <size key="itemSize" width="50" height="50"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="czE-zS-pLe" secondAttribute="trailing" id="Q7D-c1-shd"/>
+                                <constraint firstAttribute="height" priority="250" constant="695" id="QWE-gK-XEx"/>
+                                <constraint firstAttribute="bottom" secondItem="czE-zS-pLe" secondAttribute="bottom" id="e1z-l7-qfj"/>
+                                <constraint firstItem="czE-zS-pLe" firstAttribute="leading" secondItem="VHT-Jy-4vP" secondAttribute="leading" id="evh-OS-ygH"/>
+                                <constraint firstItem="czE-zS-pLe" firstAttribute="top" secondItem="VHT-Jy-4vP" secondAttribute="top" id="hhb-YZ-eEh"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="VHT-Jy-4vP" secondAttribute="bottom" id="Hn7-dB-at3"/>
+                        <constraint firstAttribute="trailing" secondItem="VHT-Jy-4vP" secondAttribute="trailing" id="MOE-jW-GDe"/>
+                        <constraint firstItem="VHT-Jy-4vP" firstAttribute="leading" secondItem="8iu-MC-GNs" secondAttribute="leading" id="Uu2-OR-hJ3"/>
+                        <constraint firstItem="VHT-Jy-4vP" firstAttribute="width" secondItem="8iu-MC-GNs" secondAttribute="width" id="a6a-sh-byg"/>
+                        <constraint firstItem="VHT-Jy-4vP" firstAttribute="top" secondItem="8iu-MC-GNs" secondAttribute="top" id="knV-Rz-z8V"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="8iu-MC-GNs" secondAttribute="bottom" id="NE9-Mx-7Dq"/>
+                <constraint firstItem="8iu-MC-GNs" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="RuT-cc-8ka"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8iu-MC-GNs" secondAttribute="trailing" id="cbp-yU-baM"/>
+                <constraint firstItem="8iu-MC-GNs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="t7U-4C-I60"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="154.40000000000001" y="279.76011994002999"/>
+        </view>
+    </objects>
+</document>

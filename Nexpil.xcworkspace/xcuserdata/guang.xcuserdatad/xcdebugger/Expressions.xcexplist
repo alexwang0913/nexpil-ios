@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "DataManager.insertBloodPressure(date:time:timeIndex:value1:value2:):DataManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AtHomeViewController.tableView(_:numberOfRowsInSection:):AtHomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellTypes">
+            </PersistentString>
+            <PersistentString
+               value = "moduleIds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleItemView.setDectorContent(withData:):ScheduleItemView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data.value(forKey: &quot;timeStart&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FeedViewController.showData():FeedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DataUtils.APIURL + DataUtils.COMMUNITYPOST_URL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FeedViewController.tableView(_:cellForRowAt:):FeedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell?.likebtn">
+            </PersistentString>
+            <PersistentString
+               value = "cell?.commentTableView">
+            </PersistentString>
+            <PersistentString
+               value = "cell?.commentList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SiriMedicationViewController.getPrescriptions(_:):SiriMedicationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "charAmount.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewController.popSettingViewBtnsClick(name:):ProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "popSettingView.snooze">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FeedViewController.tableView(_:numberOfRowsInSection:):FeedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.posts">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBpAmdFirstViewController.textField(_:shouldChangeCharactersIn:replacementString:):NewBpAmdFirstViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "measurementLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileModelView.resetMedicationList(type:):ProfileModelView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SettingSnoozeModalView.initBtnUIs():SettingSnoozeModalView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.snooze">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HealthDetails01ViewController.initMainView():HealthDetails01ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lblTitle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewController.addScheduleDetailPopView(index:):ProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "arraySchedule[value]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBpAmdFirstViewController.onChangeMeasurementLabel(_:):NewBpAmdFirstViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "text.prefix(1)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SiriMedicationViewController.showHideAction(_:):SiriMedicationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "threedotsView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MessageTableViewCell.tableView(_:cellForRowAt:):MessageTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.content.bounds.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static BPDataManager.SendData():BPDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Measurement">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeTabViewController.timeSelect(sender:):HomeTabViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_showDate">
+            </PersistentString>
+            <PersistentString
+               value = "child_1!.selectedDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBgAmdThirdViewController.calendar(_:didSelectDate:withEvents:):NewBgAmdThirdViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "BGDataManager.Date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WeightAddSecondViewController.doneButtonClick(_:):WeightAddSecondViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in static BGDataManager.SendData(_:):BGDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DataUtils.APIURL + DataUtils.HEALTH_BLOODGLUCOSE_URL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ProfileScheduleModalView.saveSchedule(_:):ProfileScheduleModalView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MedicationInfoMainViewController.onRemove():MedicationInfoMainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "medicationName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBpAmdSecondViewController.doneButtonClick(_:):NewBpAmdSecondViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "min">
+            </PersistentString>
+            <PersistentString
+               value = "hour">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignUpViewController.gotoSignupAndMedication():SignUpViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dicArray">
+            </PersistentString>
+            <PersistentString
+               value = "DataUtils.APIURL + DataUtils.MYDRUG_URL">
+            </PersistentString>
+            <PersistentString
+               value = "JSONString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MedicationInfoMainViewController.viewDidLoad():MedicationInfoMainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data[&quot;type&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBpAmdSecondViewController.updateTimeLabel():NewBpAmdSecondViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "min">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HealthViewController.insertBloodPressure(date:value1:value2:):HealthViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "InformationCard.init(coder:):InformationCard.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "value.frame.height">
+            </PersistentString>
+            <PersistentString
+               value = "identifier.frame.height">
+            </PersistentString>
+            <PersistentString
+               value = "height">
+            </PersistentString>
+            <PersistentString
+               value = "value.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "InformationCardMedicationSelectViewController.updateText():InformationCardMedicationSelectViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.shadowviewHeight.constant">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LandingScreenViewController.viewDidLoad():LandingScreenViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "wifi.signalStrength">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddMedicationListViewController.sendData():AddMedicationListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dicArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AtHomeViewController.getSelfData():AtHomeViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "getWeight():Base.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(((array[0] as! NSDictionary)[&quot;data&quot;] as! NSArray)[0] as NSDictionary)[&quot;value&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in MedicationInfoMainViewController.removeShadow(root:):MedicationInfoMainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AtHomeViewController.tableView(_:cellForRowAt:):AtHomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellTypes">
+            </PersistentString>
+            <PersistentString
+               value = "arrayList">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row - 2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.fetchWeightGetAllWeekData():DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "arrayWeeks.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MessageTableViewCell.tableView(_:heightForRowAt:):MessageTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "InformationCard.updateHeight():InformationCard.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "value.bounds.size.height">
+            </PersistentString>
+            <PersistentString
+               value = "identifier.text">
+            </PersistentString>
+            <PersistentString
+               value = "value.frame.height">
+            </PersistentString>
+            <PersistentString
+               value = "value.frame.width">
+            </PersistentString>
+            <PersistentString
+               value = "value.text">
+            </PersistentString>
+            <PersistentString
+               value = "CGFloat.greatestFiniteMagnitude">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBgAmdThirdViewController.doneButtonClick(_:):NewBgAmdThirdViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "BGDataManager.Date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SummaryScreenViewController.viewDidAppear(_:):SummaryScreenViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.medicationCard.containerView.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddMedicationListViewController.tableView(_:cellForRowAt:):AddMedicationListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(datas[index].amount as String).prefix(1)">
+            </PersistentString>
+            <PersistentString
+               value = "datas[index].amount">
+            </PersistentString>
+            <PersistentString
+               value = "cell?.amount.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CommunityMainViewController.addCommunityMember(gesture:):CommunityMainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "vw_feeds.view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddHealthDataViewController.tableView(_:didSelectRowAt:):AddHealthDataViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PostMessageViewController.viewDidLoad():PostMessageViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MedicationInfoMainViewController.removeShadow(root:):MedicationInfoMainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MedicationInfoMainViewController.onTake():MedicationInfoMainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "takeStatus">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeTabViewController.checkWendsdayBubble():HomeTabViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_selectedDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewBpAmdFirstViewController.textFieldDidChangeSelection(_:):NewBpAmdFirstViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "backspacePressed">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewMoodViewController.updateDateLabel():NewMoodViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "datas[0] as Mood">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileScheduleModalView.awakeFromNib():ProfileScheduleModalView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StepsDayCollectionViewCell.setInfo(dic:):StepsDayCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lblSteps">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddMedicationListViewController.tableView(_:heightForRowAt:):AddMedicationListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UITableViewAutomaticDimension">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SignUpViewController.gotoSignupAndMedication():SignUpViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SummaryScreenViewController.viewDidLoad():SummaryScreenViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.amount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SummaryScreenViewController.viewWillAppear(_:):SummaryScreenViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.strengthCard.valueText">
+            </PersistentString>
+            <PersistentString
+               value = "self.strengthCard.containerView.frame.height">
+            </PersistentString>
+            <PersistentString
+               value = "self.medicationCard.view.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in DataManager.loadAndDisplayMostRecentWeight():DataManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in AddMedicationListViewController.sendData():AddMedicationListViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MedicationInfoMainViewController.removeShadow(root:):MedicationInfoMainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_drugInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PostMessageViewController.postData(gesture:):PostMessageViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewController.tableView(_:didSelectRowAt:):ProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

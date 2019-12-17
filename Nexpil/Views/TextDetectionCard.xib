@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextDetectionCard" customModule="Nexpil" customModuleProvider="target">
+            <connections>
+                <outlet property="circleView" destination="MpM-vE-L1s" id="BvV-ps-XWm"/>
+                <outlet property="imageView" destination="YBB-po-Kjv" id="Xgd-5e-dMe"/>
+                <outlet property="title" destination="BUa-kQ-iAd" id="ASb-VS-FoK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eYO-ul-m0e">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MpM-vE-L1s">
+                    <rect key="frame" x="0.0" y="0.0" width="335" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YBB-po-Kjv">
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="143"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Health" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUa-kQ-iAd">
+                            <rect key="frame" x="8" y="157.5" width="319" height="24.5"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="BUa-kQ-iAd" secondAttribute="trailing" constant="8" id="GrG-kM-olA"/>
+                        <constraint firstAttribute="trailing" secondItem="YBB-po-Kjv" secondAttribute="trailing" id="M2d-ra-Rcc"/>
+                        <constraint firstAttribute="bottom" secondItem="BUa-kQ-iAd" secondAttribute="bottom" constant="18" id="bfq-oC-dhm"/>
+                        <constraint firstItem="YBB-po-Kjv" firstAttribute="leading" secondItem="MpM-vE-L1s" secondAttribute="leading" id="bvF-1V-myU"/>
+                        <constraint firstItem="BUa-kQ-iAd" firstAttribute="top" secondItem="YBB-po-Kjv" secondAttribute="bottom" constant="14.5" id="cjC-q4-Yhv"/>
+                        <constraint firstItem="YBB-po-Kjv" firstAttribute="top" secondItem="MpM-vE-L1s" secondAttribute="top" id="dT6-ur-ALR"/>
+                        <constraint firstItem="BUa-kQ-iAd" firstAttribute="leading" secondItem="MpM-vE-L1s" secondAttribute="leading" constant="8" id="rIB-lI-ctw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MpM-vE-L1s" firstAttribute="top" secondItem="Eod-Jm-I0X" secondAttribute="top" id="1JQ-Wn-raR"/>
+                <constraint firstItem="MpM-vE-L1s" firstAttribute="bottom" secondItem="Eod-Jm-I0X" secondAttribute="bottom" id="KhR-GN-J0i"/>
+                <constraint firstItem="MpM-vE-L1s" firstAttribute="trailing" secondItem="Eod-Jm-I0X" secondAttribute="trailing" id="Nh1-Lw-b0r"/>
+                <constraint firstItem="Eod-Jm-I0X" firstAttribute="trailing" secondItem="MpM-vE-L1s" secondAttribute="trailing" id="PV8-UY-bPk"/>
+                <constraint firstItem="Eod-Jm-I0X" firstAttribute="bottom" secondItem="MpM-vE-L1s" secondAttribute="bottom" id="SHp-vN-7dq"/>
+                <constraint firstItem="MpM-vE-L1s" firstAttribute="leading" secondItem="Eod-Jm-I0X" secondAttribute="leading" id="WBU-wf-oYw"/>
+                <constraint firstItem="MpM-vE-L1s" firstAttribute="leading" secondItem="Eod-Jm-I0X" secondAttribute="leading" id="bLw-Jn-Dza"/>
+                <constraint firstItem="MpM-vE-L1s" firstAttribute="top" secondItem="Eod-Jm-I0X" secondAttribute="top" id="f8H-3f-aTj"/>
+                <constraint firstItem="MpM-vE-L1s" firstAttribute="centerX" secondItem="eYO-ul-m0e" secondAttribute="centerX" id="kls-dq-f0m"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Eod-Jm-I0X"/>
+            <point key="canvasLocation" x="159.19999999999999" y="-99.850074962518747"/>
+        </view>
+    </objects>
+</document>

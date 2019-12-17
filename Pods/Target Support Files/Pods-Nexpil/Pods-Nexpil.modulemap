@@ -1,0 +1,6 @@
+framework module Pods_Nexpil {
+  umbrella header "Pods-Nexpil-umbrella.h"
+
+  export *
+  module * { export * }
+}
